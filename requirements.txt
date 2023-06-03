@@ -1,0 +1,6 @@
+pandas
+streamlit
+cryptography
+folium
+streamlit-folium
+plotly
