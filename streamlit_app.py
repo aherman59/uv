@@ -9,8 +9,8 @@ import streamlit as st
 from streamlit_folium import st_folium
 from cryptography.fernet import Fernet
 
-def decrypt(password):
 
+def decrypt(password):
     try:
         cipher_suite = Fernet(password.encode("utf-8"))
         with open("data", 'rb') as fichier_chiffre:
